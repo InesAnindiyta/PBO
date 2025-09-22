@@ -6,7 +6,7 @@ package praktikum4;
 
 /**
  *
- * @author acer
+ * @author user
  */
 public class praktikumPBO4 {
 
@@ -27,3 +27,4 @@ public class praktikumPBO4 {
         System.out.println("tahun baru: " + mobil.getTahun());
     }
 }
+
