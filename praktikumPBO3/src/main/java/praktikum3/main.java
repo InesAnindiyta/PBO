@@ -14,10 +14,13 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Hewan kucing = new Hewan();
-        kucing.nama = "mimi";
-        kucing.umur = 3;
-        kucing.suara();
-    }
-    
+            hewan kucing = new hewan("suti", 5);
+            kucing.suara();
+            kucing.info();
+            
+            hewan anjing = new hewan("jiji", 1);
+            anjing.suara();
+            anjing.info();
+    } 
 }
+
