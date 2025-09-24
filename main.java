@@ -9,12 +9,19 @@ package tugas3;
  * @author User
  */
 public class main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Mobil mobil1 = new Mobil("Isuzu", "Panther Miyabi", 1997, "Green");
+        Mobil mobil2 = new Mobil("GM", "Chevrolet Camaro", 1969, "Red");
+
+        mobil1.displayInfo();
+        mobil2.displayInfo();
+
+        mobil1.startEngine();
+        mobil2.startEngine();
+
+        mobil1.setWarna("Green");
+        mobil1.displayInfo();
     }
     
 }
+
